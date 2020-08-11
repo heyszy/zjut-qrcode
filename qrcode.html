@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/qrcode_style.css">
+    <title>申请人领取-学生校园通行码</title>
+  </head>
+  <body>
+    <div class="container wrapper">
+        <!-- <div class="topbar row">
+            <text class="title" selectable="false" space="false" decode="false">
+                学生校园通行码领取：申请人领取
+            </text>
+            <text class="serial_number" selectable="false" space="false" decode="false">
+                流水号:2368790
+            </text>
+        </div> -->
+        <div class="topbar row">
+            <img class="pic0" src="image/top_bar.jpg" usemap="#back">
+            <map name="back" id="back">
+                <area shape="rect" coords="0,0,40,50" href="javascript:history.back(-1);">
+            </map>
+        </div>
+
+        <div class="main row shadow p-2 mb-2 bg-white">
+            <image class="pic1" src="image/IMG_2272.jpeg"></image>
+            <text class="textarea1 smalltext" selectable="false" space="false" decode="false">
+                Everyone is responsible for epidemic prevention on campus
+            </text>
+            <div class="imfo1 row">
+                <text class="name middletext" id="name" selectable="false" space="false" decode="false">
+                    
+                </text>
+                <text class="textarea2 middletext" selectable="false" space="false" decode="false">
+                    校园通行码&nbsp;&nbsp;
+                </text>
+                <text class="textarea3 smalltext" selectable="false" space="false" decode="false">
+                    Campus Pass Code
+                </text>
+            </div>
+            <div class="imfo2">
+                <text class="college middletext" id="college" selectable="false" space="false" decode="false">
+                    
+                </text>
+            </div>
+            <div class="imfo3">
+                <text class="id middletext" id="id" selectable="false" space="false" decode="false">
+                    
+                </text>
+            </div>
+            <div class="imfo4">
+                <div>
+                   <text class="textarea4 smalltext" selectable="false" space="false" decode="false">
+                    生成时间 Generation time：
+                </text> 
+                </div>
+                <div>
+                   <text class="generationtime timetext" selectable="false" space="false" decode="false">
+                    <script type="text/javascript">
+                        var date=new Date();
+                        document.write(date.getFullYear() + "-");
+                        if (date.getMonth() < 10) {
+                            document.write("0");
+                        }
+                        document.write((date.getMonth()+1) + "-" + date.getDate() + "&nbsp;00:00:00")
+                    </script>
+                </text> 
+                </div>
+            </div>
+            <div class="imfo5">
+                <div>
+                   <text class="textarea5 smalltext" selectable="false" space="false" decode="false">
+                    到期时间 Expire Time：
+                </text> 
+                </div>
+                <div>
+                   <text class="expiretime timetext" selectable="false" space="false" decode="false">
+                    <script type="text/javascript">
+                        var date=new Date();
+                        document.write(date.getFullYear() + "-");
+                        if (date.getMonth() < 10) {
+                            document.write("0");
+                        }
+                        document.write((date.getMonth()+1) + "-" + date.getDate() + "&nbsp;23:59:59")
+                    </script>
+                </text> 
+                </div>
+            </div>
+            <div class="imfo6">
+                <div>
+                    <img src="./image/IMG_2273.jpeg"  style="width: 100%;height: 100%;">
+                </div>
+            </div>
+            <div class="imfo7">
+                <text class="textarea6" selectable="false" space="false" decode="false">
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;凭此码可在学校朝晖校区、屏峰校区、莫干山校区范围内配合有效证件通行，请主动出示，配合检查。</p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;This code can be used to pass with valid documents in the Zhaohui campus, Pingfeng campus and Moganshan campus. Please present it actively and cooperate with the inspection</p>
+                </text>
+            </div>
+        </div>
+        <div class="copyright row">
+            <hr style="width: 100%;">
+            <text class="textarea7" selectable="false" space="false" decode="false">
+                版权所有&nbsp;©️&nbsp;浙江工业大学
+            </text>
+        </div>
+    </div>
+    <script>  
+        document.getElementById("name").innerHTML=sessionStorage.getItem("name")+'&nbsp'+'&nbsp';
+        document.getElementById("college").innerHTML=sessionStorage.getItem("college");
+        document.getElementById("id").innerHTML=sessionStorage.getItem("id");
+    </script>
+  </body>
+</html>
+
+
+
+
+

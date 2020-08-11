@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/common.css">
+    <title>申请人领取-学生校园通行码</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="name" class="imfo">
+        </div>
+        <div id="college" class="imfo">
+        </div>
+        <div id="id" class="imfo">
+        </div>
+        <div id="generationtime" class="date">
+            <script type="text/javascript">
+                var date=new Date();
+                document.write(date.getFullYear() + "-");
+                if (date.getMonth() < 10) {
+                    document.write("0");
+                }
+                document.write((date.getMonth()+1) + "-" + date.getDate() + "&nbsp;00:00:00")
+            </script>
+        </div>
+        <div id="expiretime" class="date">
+            <script type="text/javascript">
+                var date=new Date();
+                document.write(date.getFullYear() + "-");
+                if (date.getMonth() < 10) {
+                    document.write("0");
+                }
+                document.write((date.getMonth()+1) + "-" + date.getDate() + "&nbsp;23:59:59")
+            </script>
+        </div>
+    </div>
+
+    <script>  
+        document.getElementById("name").innerHTML=sessionStorage.getItem("name")+'&nbsp';
+        document.getElementById("college").innerHTML=sessionStorage.getItem("college")+'&nbsp';
+        document.getElementById("id").innerHTML=sessionStorage.getItem("id")+'&nbsp';
+    </script>
+</body>
+
+</html>
+
+
+
+
+

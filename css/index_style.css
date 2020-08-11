@@ -1,0 +1,55 @@
+.wrapper{
+    background-image: url(../image/iceland_unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: 80px auto;
+    padding: 50px auto 50px;
+    width: 700px;
+}
+.formarea{
+	margin: 50px auto 50px;	/* login框剧中 */
+	padding: 20px 50px;	/* login框内部的距离(内部与输入框和按钮的距离) */
+	/* background-color: rgba(0,0,0,0.5);	login框背景颜色和透明度 */
+	width: 500px;
+    border-radius: 10px;	/* 圆角边 */
+    color:#ffffff;
+}
+/* .container{
+    margin: 80px auto;
+    padding: 50px auto 50px;
+    width: 700px;
+} */
+.title{
+    position: relative;
+    bottom: 10px;
+    font-size: 24px;
+    font-weight: 300;
+    /* color:#ffffff; */
+}
+.copyrightarea{
+    text-align:center;
+    font-size: 10px;
+    color: #c4c4c4;
+}
+
+@media screen and (max-width: 768px){
+    .container{
+        margin: 80px auto;
+        /* padding: 50px auto 50px; */
+        width: 360px;
+    }
+    .formarea{
+        margin: 30px auto;	/* login框剧中 */
+        padding: 20px 20px;	/* login框内部的距离(内部与输入框和按钮的距离) */
+        /* background-color: #00000090;	login框背景颜色和透明度 */
+        width: 330px;
+        height: 280px;
+        border-radius: 10px;	/* 圆角边 */
+    }
+    .copyrightarea{
+        text-align:center;
+        font-size: 10px;
+        color: #c4c4c4;
+    }
+}

@@ -1,0 +1,102 @@
+.wrapper{
+    width: 375px;
+    background-color: #efefef;
+}
+.topbar{
+    position: fixed;
+    width: 375px;
+    height: 25px;
+}
+.pic0{
+    width: 100%;
+}
+.title{
+    font-size: 14px;
+}
+.serial_number{
+    font-size: 12px;
+}
+.main{
+    background-color: #ffffff;
+}
+.pic1{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+.textarea1{
+    text-align:center
+}
+.smalltext{
+    font-size: small;
+}
+.middletext{
+    font-size: larger;
+}
+.imfo1{
+    text-align:center;
+    margin:25px auto 0;
+    width: 300px;
+}
+.textarea2{
+    color: #384b40;
+}
+.textarea3{
+    margin-top: 7px;
+    color: #384b40;
+}
+.imfo2{
+    margin: 15px auto 0;
+    width: 100%;
+    text-align:center;
+}
+.imfo3{
+    margin: 5px auto 0;
+    width: 100%;
+    text-align:center;
+}
+.imfo4{
+    margin: 20px auto 0;
+    width: 100%;
+    text-align:center;
+}
+.textarea4{
+    color: #a8a8a8;
+    margin-bottom: 20px;
+}
+.textarea5{
+    color: #a8a8a8;
+}
+.timetext{
+    font-size: 14px;
+}
+.imfo5{
+    margin: 10px auto 0;
+    width: 100%;
+    text-align:center;
+}
+.imfo6{
+    width: 200px;
+    margin: 10px auto 0;
+}
+.pic2{
+    width: 100%;
+    height: 100%;
+}
+.imfo7{
+    margin: 10px auto 0;
+}
+.textarea6{
+    font-size: small;
+}
+
+.hr{
+    margin-top: 10px;
+    width: 100%;
+}
+.textarea7{
+    text-align:center;
+    margin: 0 auto 10px;
+    color: #676767;
+    font-size: small;
+}
